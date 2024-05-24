@@ -5,7 +5,7 @@
     --cor-de-fundo: #0d0d0d;
     --verde: #e5e3ec;
     --branco: #f9f8f8;
-    --botao-ativo: #0e0ef9;
+    --botao-ativo: #0505ef;
     --botao-inativo: rgba(177, 174, 174, 0.5);
     --texto-fundo: rgba(30, 32, 36, 0.993);
 }
@@ -66,28 +66,17 @@ font-size: 32px;
 background-color: var(--botao-ativo);
 border-bottom: 10px solid var(--verde);
 }
-.abas-textos{
+
+.abas-textos {
   background-color: var(--texto-fundo);
   padding: 40px;
   border-radius: 0 0 40px 40px;
 }
-.aba-conteudo.botao.ativo{
+
+.aba-conteudo.ativo {
   display: block;
 }
-.aba-conteudo{
+
+.aba-conteudo {
   display: nome;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
